@@ -21,8 +21,8 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
    ```
 
 3. **`ls` (List Files and Directories)**  
-   - Lists the contents of the current directory, including files and subdirectories.  
-   - You can use various options with `ls`, such as `ls -l` for a detailed list or `ls -a` to show hidden files.
+  - Lists the contents of the current directory, including files and subdirectories.  
+  - You can use various options with `ls`, such as `ls -l` for a detailed list or `ls -a` to show hidden files.
    ```bash
    ls
    # Output example:
@@ -30,8 +30,8 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
    ```
 
 4. **`cd` (Change Directory)**  
-   - Allows you to move between directories.  
-   - Use `cd ..` to go up one level or specify a path to navigate to a specific folder.
+  - Allows you to move between directories.  
+  - Use `cd ..` to go up one level or specify a path to navigate to a specific folder.
    
    ```bash
    cd /path/to/directory
@@ -39,7 +39,7 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
    ```
 
 5. **`mkdir` (Make Directory)**  
-   - Creates a new directory.  
+  - Creates a new directory.  
    
    ```bash
    mkdir new_folder
@@ -47,8 +47,8 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
    ```
 
 6. **`rm` (Remove Files)**  
-   - Deletes files.  
-   - Be cautious with this command, as files deleted using `rm` are not recoverable without backups. For directories, use `rm -r` to remove them recursively.
+  - Deletes files.  
+  - Be cautious with this command, as files deleted using `rm` are not recoverable without backups. For directories, use `rm -r` to remove them recursively.
    
    ```bash
    rm file.txt
@@ -56,8 +56,8 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
    ```
 
 7. **`rmdir` (Remove Directory)**  
-   - Removes an empty directory.  
-   - If the directory contains files, you must use `rm -r` instead to delete the directory and its contents.
+  - Removes an empty directory.  
+  - If the directory contains files, you must use `rm -r` instead to delete the directory and its contents.
    
    ```bash
    rmdir empty_folder
@@ -65,8 +65,8 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
    ```
 
 8. **`call`**  
-   - This command is used to execute scripts or commands in some environments, but may not be standard on all Linux systems.  
-   - If running scripts directly, ensure they have execute permissions (`chmod +x script.sh`).
+  - This command is used to execute scripts or commands in some environments, but may not be standard on all Linux systems.  
+  - If running scripts directly, ensure they have execute permissions (`chmod +x script.sh`).
    
    ```bash
    call ./script.sh
@@ -74,8 +74,8 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
    ```
 
 9. **`uname`**  
-   - Displays basic information about the system, such as the operating system and hardware architecture.  
-   - You can add options like `-a` for all available details.
+  - Displays basic information about the system, such as the operating system and hardware architecture.  
+  - You can add options like `-a` for all available details.
    
    ```bash
    uname
@@ -84,7 +84,7 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
    ```
 
 10. **`uname -r`**  
-    - Shows the current kernel version.  
+  - Shows the current kernel version.  
     
     ```bash
     uname -r
@@ -93,7 +93,7 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
     ```
 
 11. **`man` (Manual Pages)**  
-    - Opens the manual pages for any command, providing detailed information on how to use it.  
+  - Opens the manual pages for any command, providing detailed information on how to use it.  
     
     ```bash
     man ls
@@ -101,7 +101,7 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
     ```
 
 12. **`echo`**  
-    - Outputs the given text or variables to the terminal.  
+  - Outputs the given text or variables to the terminal.  
     
     ```bash
     echo "Hello, Red Hat!"
@@ -110,16 +110,17 @@ This chapter of *Redhat Enterprise Linux 9 for Beginners* introduces some basic 
     ```
 
 13. **`date`**  
-    - Displays the current date and time.  
+  - Displays the current date and time.  
     
     ```bash
     date
     # Output example:
     # Sat Sep 28 12:45:01 UTC 2024
     ```
+---    
 
 <div align="center">
-  <img src="screenshot/1.png" width=""/>
+  <img src="/screenshot/1.PNG" width=""/>
 </div>
 
 
